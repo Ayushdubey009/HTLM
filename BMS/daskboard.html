@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Banking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Welcome, [Username]</h2>
+        <div class="account-summary">
+            <h3>Account Overview</h3>
+            <p><strong>Account Balance:</strong> $[Balance]</p>
+            <p><strong>Account Number:</strong> [Account Number]</p>
+            <p><strong>Account Type:</strong> [Account Type]</p>
+        </div>
+        <div class="transaction-history">
+            <h3>Recent Transactions</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Transaction ID</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-12-10</td>
+                        <td>#12345</td>
+                        <td>$200</td>
+                        <td>Successful</td>
+                    </tr>
+                    <tr>
+                        <td>2024-12-05</td>
+                        <td>#12344</td>
+                        <td>$500</td>
+                        <td>Successful</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="actions">
+            <a href="transfer.html">Make a Transfer</a> | 
+            <a href="profile.html">Edit Profile</a> | 
+            <a href="logout.html">Logout</a>
+        </div>
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>
